@@ -7,7 +7,7 @@
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base", 
-		"krastorio2",
+		"Krastorio2",
 		"! beacon-overhaul", 
 		"! beacon-interference", 
 		"! space-exploration", 
