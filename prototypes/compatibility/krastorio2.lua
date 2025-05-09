@@ -20,7 +20,7 @@ if mods["Krastorio2"] then
 			{type = "item", name = "copper-cable", amount = 30},
 			{type = "item", name = "kr-energy-control-unit", amount = 20},
 			{type = "item", name = "substation", amount = 4},
-			(type = "item", name = "kr-advanced-radar", amount = 4)
+			{type = "item", name = "kr-advanced-radar", amount = 4}
 		}
 		data.raw["technology"]["effect-transmission-3"].prerequisites = {
 			"effect-transmission-2", 
