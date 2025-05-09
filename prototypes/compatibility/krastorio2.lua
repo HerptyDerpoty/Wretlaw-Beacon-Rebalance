@@ -4,12 +4,19 @@ if mods["Krastorio2"] then
 	
 	if settings.startup["wret-change-K2-beacon"].value then
 	local singularity_beacon = data.raw["beacon"]["kr-singularity-beacon"]
-	singularity_beacon.module_slots = 15
-	singularity_beacon.module_info_max_icons_per_row = 5
-	singularity_beacon.module_info_max_icon_rows = 3
-	singularity_beacon.module_info_icon_scale = .25
-	singularity_beacon.module_info_multi_row_initial_height_modifier = -.5
+	singularity_beacon.icons_positioning = {
+		{
+		inventory_index = defines.inventory.beacon_modules,
+		max_icons_per_row = 4,
+		scale = .3,
+		separation_multiplier = 1.1,
+		multi_row_initial_height_modifier = -1.2
+		}
+	}
+	singularity_beacon.module_slots = 16
 	singularity_beacon.energy_usage = "800kW"
+	singularity_beacon.distribution_effectivity = 1.5
+	singularity_beacon.supply_area_distance = 1
 	end
 	
 	if settings.startup["wret-overload-enable-beaconmk3"].value == true then

@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 2025-05-09
+  Changes:
+    - fixed the module overlay alignment issue with the singularity beacon.
+    - nerfed the singularity beacon
+---------------------------------------------------------------------------------------------------
 Version: 2.0.5
 Date: 2025-05-08
   Changes:
